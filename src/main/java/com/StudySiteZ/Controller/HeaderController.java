@@ -121,6 +121,8 @@ public class HeaderController {
 		mav.addObject("title","LoginPage");
 		mav.addObject("msg","LOGIN");
 		session.setAttribute("nextpage", "login");
+		
+		//////////////////////
         return  mav;
      }
 	
